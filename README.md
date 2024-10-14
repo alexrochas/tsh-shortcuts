@@ -81,6 +81,10 @@ start-tsh -e production
 
 Once the proxy is running, you will see the green `(tsh)` indicator in your command prompt, signifying that the Teleport proxy is active.
 
+![image](https://github.com/user-attachments/assets/0aa1c9d4-b037-4222-a156-be86bc6600d1)
+> (tsh) in green when the tsh script is running
+
+
 ### Stop the Teleport proxy
 
 Run the following command to stop the Teleport proxy:
