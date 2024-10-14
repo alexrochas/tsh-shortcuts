@@ -28,7 +28,7 @@ start-tsh() {
     echo $TSH_PID > "$HOME/.tsh_proxy_pid"
 
     # Export the KUBECONFIG environment variable dynamically using $HOME
-    export KUBECONFIG="$HOME/.tsh/keys/teleport.on-running.com/alexrochas-kube/teleport/localproxy-8443-kubeconfig"
+    export KUBECONFIG="$HOME/.tsh/keys/teleport.on-running.com/$USER-kube/teleport/localproxy-8443-kubeconfig"
     echo "KUBECONFIG set to: $KUBECONFIG"
 
     echo "Teleport proxy started with PID: $TSH_PID"
