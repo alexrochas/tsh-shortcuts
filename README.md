@@ -18,7 +18,7 @@ This repository contains scripts that automate logging into a Kubernetes environ
 
    ```bash
    git clone https://github.com/alexrochas/tsh-shortcuts.git
-   cd your-repo-name
+   cd tsh-shortcuts
    ```
 
 2. **Source the startup and prompt scripts in your shell configuration:**
